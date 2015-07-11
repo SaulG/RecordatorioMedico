@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C78E844B1B504A570052CA28 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78E844A1B504A570052CA28 /* MenuTableViewController.swift */; };
+		C78E844D1B504EDD0052CA28 /* PacientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78E844C1B504EDD0052CA28 /* PacientesViewController.swift */; };
+		C78E844F1B504EF30052CA28 /* MedicosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78E844E1B504EF30052CA28 /* MedicosViewController.swift */; };
 		C7D7B4561B503EA500664C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7B4551B503EA500664C59 /* AppDelegate.swift */; };
-		C7D7B4581B503EA500664C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7B4571B503EA500664C59 /* ViewController.swift */; };
 		C7D7B45B1B503EA500664C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D7B4591B503EA500664C59 /* Main.storyboard */; };
 		C7D7B45D1B503EA500664C59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D7B45C1B503EA500664C59 /* Images.xcassets */; };
 		C7D7B4601B503EA500664C59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7D7B45E1B503EA500664C59 /* LaunchScreen.xib */; };
 		C7D7B46C1B503EA500664C59 /* Recordatorio_Me_dicoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7B46B1B503EA500664C59 /* Recordatorio_Me_dicoTests.swift */; };
+		C7D7B4761B503EDD00664C59 /* Medicina.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7B4751B503EDD00664C59 /* Medicina.swift */; };
+		C7D7B4781B50438100664C59 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7B4771B50438100664C59 /* Paciente.swift */; };
+		C7D7B47A1B50446300664C59 /* Medico.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D7B4791B50446300664C59 /* Medico.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C78E844A1B504A570052CA28 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewController.swift; path = ../MenuTableViewController.swift; sourceTree = "<group>"; };
+		C78E844C1B504EDD0052CA28 /* PacientesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacientesViewController.swift; sourceTree = "<group>"; };
+		C78E844E1B504EF30052CA28 /* MedicosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicosViewController.swift; sourceTree = "<group>"; };
 		C7D7B4501B503EA500664C59 /* Recordatorio Médico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recordatorio Médico.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D7B4541B503EA500664C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7D7B4551B503EA500664C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7D7B4571B503EA500664C59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7D7B45A1B503EA500664C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7D7B45C1B503EA500664C59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7D7B45F1B503EA500664C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C7D7B4651B503EA500664C59 /* Recordatorio MédicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recordatorio MédicoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D7B46A1B503EA500664C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7D7B46B1B503EA500664C59 /* Recordatorio_Me_dicoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recordatorio_Me_dicoTests.swift; sourceTree = "<group>"; };
+		C7D7B4751B503EDD00664C59 /* Medicina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicina.swift; sourceTree = "<group>"; };
+		C7D7B4771B50438100664C59 /* Paciente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
+		C7D7B4791B50446300664C59 /* Medico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medico.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				C7D7B4551B503EA500664C59 /* AppDelegate.swift */,
-				C7D7B4571B503EA500664C59 /* ViewController.swift */,
+				C78E844A1B504A570052CA28 /* MenuTableViewController.swift */,
+				C78E844C1B504EDD0052CA28 /* PacientesViewController.swift */,
+				C78E844E1B504EF30052CA28 /* MedicosViewController.swift */,
+				C7D7B4751B503EDD00664C59 /* Medicina.swift */,
+				C7D7B4771B50438100664C59 /* Paciente.swift */,
+				C7D7B4791B50446300664C59 /* Medico.swift */,
 				C7D7B4591B503EA500664C59 /* Main.storyboard */,
 				C7D7B45C1B503EA500664C59 /* Images.xcassets */,
 				C7D7B45E1B503EA500664C59 /* LaunchScreen.xib */,
@@ -212,8 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D7B4581B503EA500664C59 /* ViewController.swift in Sources */,
+				C7D7B4761B503EDD00664C59 /* Medicina.swift in Sources */,
+				C7D7B4781B50438100664C59 /* Paciente.swift in Sources */,
+				C78E844B1B504A570052CA28 /* MenuTableViewController.swift in Sources */,
+				C78E844D1B504EDD0052CA28 /* PacientesViewController.swift in Sources */,
+				C78E844F1B504EF30052CA28 /* MedicosViewController.swift in Sources */,
 				C7D7B4561B503EA500664C59 /* AppDelegate.swift in Sources */,
+				C7D7B47A1B50446300664C59 /* Medico.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +431,7 @@
 				C7D7B4711B503EA500664C59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7D7B4721B503EA500664C59 /* Build configuration list for PBXNativeTarget "Recordatorio MédicoTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +440,7 @@
 				C7D7B4741B503EA500664C59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
