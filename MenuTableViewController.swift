@@ -15,6 +15,10 @@ class MenuTableViewController: UITableViewController {
     // MARK: - View Controller Lifecylce
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        let backgroundColor = UIView(frame: CGRectZero)
+//        self.tableView.backgroundView = backgroundColor
+//        self.tableView.backgroundColor = UIColor.clearColor()
     }
     
     //MARK: - TableView
@@ -58,8 +62,8 @@ class MenuTableViewController: UITableViewController {
     
     // MARK: - Constants
     private struct Constantes {
-        static let MenuPaciente = "Paciente"
-        static let MenuMedico = "Médico"
+        static let MenuPaciente = "Pacientes"
+        static let MenuMedico = "Médicos"
         struct Segues {
             static let MostrarPacientes: String = "Mostrar Pacientes"
             static let MostrarMedicos: String = "Mostrar Medicos"
