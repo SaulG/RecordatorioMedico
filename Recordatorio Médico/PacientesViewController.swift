@@ -99,5 +99,8 @@ class PacientesViewController: UIViewController, UITableViewDelegate, UITableVie
             static let fontMessage: String = "Menlo-Regular"
             static let message: String = "El listado de pacientes se encuentra vacío."
         }
+        struct Segues {
+            static let addPacient: String = "Agregar Paciente"
+        }
     }
 }

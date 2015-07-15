@@ -9,12 +9,12 @@
 import Foundation
 
 class Persona {
-    let nombre: String?
-    let fecha_nacimiento: NSDate?
-    let peso: Int?
-    var enfermedades: [String]?
+    var nombre: String
+    var fecha_nacimiento: NSDate
+    var peso: Int
+    var enfermedades: String
     
-    init (nombre: String, fecha_nacimiento: NSDate, peso: Int, enfermedades: [String]) {
+    init (nombre: String, fecha_nacimiento: NSDate, peso: Int, enfermedades: String) {
         self.nombre = nombre
         self.fecha_nacimiento = fecha_nacimiento
         self.peso = peso
